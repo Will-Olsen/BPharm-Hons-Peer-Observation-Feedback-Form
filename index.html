@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Peer Observation Feedback Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <h1>Peer Observation Feedback Form</h1>
+        <p class="subtitle">BPharm(Hons) Peer Observation Program</p>
+      </header>
+
+      <form id="feedback-form">
+        <!-- Observer metadata -->
+        <section class="meta-section">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="observer-name">Observer Name</label>
+              <input id="observer-name" name="observer-name" type="text" placeholder="Your name" />
+            </div>
+            <div class="form-group">
+              <label for="observation-date">Date of Observation</label>
+              <input id="observation-date" name="observation-date" type="date" />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="presenter-name">Presenter/Lecturer Name</label>
+              <input id="presenter-name" name="presenter-name" type="text" placeholder="Name" />
+            </div>
+            <div class="form-group">
+              <label for="session-unit">Session/Unit</label>
+              <input id="session-unit" name="session-unit" type="text" placeholder="Unit or workshop name" />
+            </div>
+          </div>
+        </section>
+
+        <!-- Question 1: Positive aspects -->
+        <section class="question-section">
+          <h2>1. Positive Aspects</h2>
+          <p class="guidance">
+            Consider: pedagogical design and facilitation of blended learning approach; student engagement and impact.
+          </p>
+          <textarea 
+            name="positive-aspects" 
+            rows="6" 
+            placeholder="What went well? What strengths did you observe in the teaching approach?">
+          </textarea>
+        </section>
+
+        <!-- Question 2: Areas for improvement -->
+        <section class="question-section">
+          <h2>2. Areas for Improvement</h2>
+          <p class="guidance">
+            Consider: Were there parts of the activity that were not engaging? Is there sufficient/inappropriate cross-over of UQ Extend materials?
+          </p>
+          <textarea 
+            name="areas-improve" 
+            rows="6" 
+            placeholder="What could be improved? What areas need attention?">
+          </textarea>
+        </section>
+
+        <!-- Question 3: Opportunities for change -->
+        <section class="question-section">
+          <h2>3. Opportunities for Change</h2>
+          <p class="guidance">
+            Consider: Is there something you would have done differently? Are there opportunities to experiment with novel methods of teaching? Are there opportunities to link UQ Extend materials more explicitly to workshop materials? Can you share some best practice tips?
+          </p>
+          <textarea 
+            name="opportunities" 
+            rows="8" 
+            placeholder="What new approaches or strategies could work? What opportunities have you spotted for innovation or explicit linking?">
+          </textarea>
+        </section>
+
+        <!-- Question 4: Key takeaways -->
+        <section class="question-section">
+          <h2>4. Key Takeaways</h2>
+          <p class="guidance">
+            What have you (the observer) seen that you would like to try in your class?
+          </p>
+          <textarea 
+            name="key-takeaways" 
+            rows="5" 
+            placeholder="Key takeaways and ideas you would like to implement">
+          </textarea>
+        </section>
+
+        <!-- Action buttons -->
+        <section class="button-section no-print">
+          <button type="button" class="btn btn-primary" onclick="window.print()">
+            🖨️ Print
+          </button>
+          <button type="reset" class="btn btn-secondary">
+            ↻ Clear Form
+          </button>
+        </section>
+      </form>
+
+      <footer class="no-print">
+        <p>💡 Tip: Fill in the form above, then click <strong>Print</strong> to save or print your feedback.</p>
+      </footer>
+    </main>
+  </body>
+</html>
