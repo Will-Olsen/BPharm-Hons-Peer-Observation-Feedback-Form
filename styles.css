@@ -34,14 +34,14 @@ body {
 header {
   text-align: center;
   margin-bottom: 40px;
-  border-bottom: 3px solid #0052cc;
+  border-bottom: 3px solid #51247A;
   padding-bottom: 20px;
 }
 
 header h1 {
   font-size: 2rem;
   margin-bottom: 8px;
-  color: #0052cc;
+  color: #51247A;
 }
 
 header .subtitle {
@@ -102,7 +102,7 @@ form {
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #0052cc;
+  border-color: #51247A;
   box-shadow: 0 0 0 3px rgba(0, 82, 204, 0.1);
 }
 
@@ -114,7 +114,7 @@ form {
 .question-section h2 {
   font-size: 1.4rem;
   margin-bottom: 10px;
-  color: #0052cc;
+  color: #51247A;
 }
 
 .question-section .guidance {
@@ -163,7 +163,7 @@ form {
 }
 
 .btn-primary {
-  background: #0052cc;
+  background: #51247A;
   color: white;
 }
 
@@ -225,7 +225,7 @@ footer {
   }
 
   header {
-    border-bottom: 2px solid #0052cc;
+    border-bottom: 2px solid #51247A;
     page-break-after: avoid;
   }
 
